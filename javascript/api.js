@@ -553,7 +553,7 @@ export function loadFont(image, alphabet, width, height) {
 }
 
 export const font = loadFont(
-  await loadImage('../assets/font.png'),
+  await loadImage('./assets/font.png'),
   'abcdefghijklmnopqrstuvwxyzабвгдеёжзийклмнопрстуфхцчшщъыьэюя 123456789!?()0:.',
   5,
   8
