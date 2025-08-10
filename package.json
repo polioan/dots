@@ -1,0 +1,34 @@
+{
+  "name": "dots",
+  "version": "0.0.1",
+  "author": {
+    "name": "Ivan Polushin",
+    "url": "https://t.me/polioan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/polioan/dots"
+  },
+  "homepage": "https://github.com/polioan/dots#readme",
+  "bugs": {
+    "url": "https://github.com/polioan/dots/issues"
+  },
+  "funding": "https://boosty.to/polioan",
+  "keywords": [
+    "image",
+    "graphics",
+    "animation",
+    "playground"
+  ],
+  "description": "Dots playground!",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.7",
+    "prettier": "^3.5.2",
+    "prettier-plugin-jsdoc": "^1.3.2"
+  }
+}
